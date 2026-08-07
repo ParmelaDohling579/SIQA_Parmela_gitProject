@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="record" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">project.siqa_parmela_git.documenttypes:doctypeConst</value>
+    <value name="node_pkg">SIQA_Parmela_gitProject</value>
+    <value name="node_comment"></value>
+    <record name="node_hints" javaclass="com.wm.util.Values">
+      <record name="revisionData" javaclass="com.wm.util.Values">
+        <value name="createdBy">Parmela.Dohling@ibm.com</value>
+        <value name="createdByUserId">5e8d6c5e5fb94b7d86ed68d337367249</value>
+        <number name="createdDate" type="Long">1786113264448</number>
+        <value name="lastModifiedBy">Parmela.Dohling@ibm.com</value>
+        <value name="lastModifiedByUserId">5e8d6c5e5fb94b7d86ed68d337367249</value>
+        <number name="lastModifiedDate" type="Long">1786113264448</number>
+      </record>
+      <Boolean name="wMIODocTypeReplica">true</Boolean>
+      <value name="createdBy">Parmela.Dohling@ibm.com</value>
+      <value name="createdDate">2026-08-07T14:34:24.448575534Z</value>
+      <value name="modifiedBy">Parmela.Dohling@ibm.com</value>
+      <value name="lastModifiedDate">2026-08-07T14:34:24.448575534Z</value>
+    </record>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_nsName">Field1</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="id">Field1</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="label">Field1</value>
+        <value name="field_name">Field1</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
