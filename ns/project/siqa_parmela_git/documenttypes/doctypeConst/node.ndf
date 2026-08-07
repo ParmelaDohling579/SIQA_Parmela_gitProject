@@ -14,13 +14,13 @@
         <number name="createdDate" type="Long">1786113264448</number>
         <value name="lastModifiedBy">Parmela.Dohling@ibm.com</value>
         <value name="lastModifiedByUserId">5e8d6c5e5fb94b7d86ed68d337367249</value>
-        <number name="lastModifiedDate" type="Long">1786113275547</number>
+        <number name="lastModifiedDate" type="Long">1786113349552</number>
       </record>
       <Boolean name="wMIODocTypeReplica">true</Boolean>
       <value name="createdBy">Parmela.Dohling@ibm.com</value>
       <value name="createdDate">2026-08-07T14:34:24.448575534Z</value>
       <value name="modifiedBy">Parmela.Dohling@ibm.com</value>
-      <value name="lastModifiedDate">2026-08-07T14:34:35.552398742Z</value>
+      <value name="lastModifiedDate">2026-08-07T14:35:49.621047383Z</value>
     </record>
     <value name="is_public">false</value>
     <value name="field_type">record</value>
@@ -45,8 +45,8 @@
         <record name="field_content_type" javaclass="com.wm.util.Values">
           <value name="contentType">1</value>
           <value name="internalType">instance</value>
-          <value name="ct_class">com.wm.lang.schema.datatypev2.WmString</value>
-          <value name="name">string_customized</value>
+          <value name="ct_class">com.wm.lang.schema.datatypev2.WmDecimal</value>
+          <value name="name">int_customized</value>
           <array name="parent-ancestors" type="record" depth="1">
             <record javaclass="com.wm.util.Values">
               <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
@@ -54,23 +54,51 @@
             </record>
             <record javaclass="com.wm.util.Values">
               <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">decimal</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">integer</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">long</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
               <value name="ncName">anyType</value>
             </record>
             <record javaclass="com.wm.util.Values">
               <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
-              <value name="ncName">string</value>
+              <value name="ncName">int</value>
             </record>
           </array>
           <record name="baseType" javaclass="com.wm.util.Values">
+            <record name="minInclusive" javaclass="com.wm.util.Values">
+              <value name="facetFixed">false</value>
+              <value name="primitiveType">4</value>
+              <value name="lexRep">-2147483648</value>
+            </record>
+            <record name="maxInclusive" javaclass="com.wm.util.Values">
+              <value name="facetFixed">false</value>
+              <value name="primitiveType">4</value>
+              <value name="lexRep">2147483647</value>
+            </record>
+            <record name="fractionDigits" javaclass="com.wm.util.Values">
+              <record name="FacetFDCValue" javaclass="com.wm.util.Values">
+                <value name="cDecimalValue">0</value>
+              </record>
+              <value name="facetFixed">true</value>
+            </record>
             <record name="whiteSpace" javaclass="com.wm.util.Values">
               <record name="FacetWSCValue" javaclass="com.wm.util.Values">
-                <value name="cDecimalValue">3</value>
+                <value name="cDecimalValue">1</value>
               </record>
-              <value name="facetFixed">false</value>
+              <value name="facetFixed">true</value>
             </record>
             <value name="contentType">1</value>
             <value name="internalType">instance</value>
-            <value name="ct_class">com.wm.lang.schema.datatypev2.WmString</value>
+            <value name="ct_class">com.wm.lang.schema.datatypev2.WmDecimal</value>
             <value name="dataTypeVersion">dtVersion2</value>
           </record>
           <value name="dataTypeVersion">dtVersion2</value>
